@@ -5,13 +5,7 @@ from datetime import datetime
 
 compList = "https://finance.naver.com/research/company_list.naver"  #종목분석
 
-# cafeWriteUrl = "https://cafe.naver.com/ca-fe/cafes/29470508/menus/160/articles/write?boardType=L"
-# cafeWriteUrl = "https://cafe.naver.com/ca-fe/cafes/30357378/menus/3/articles/write?boardType=L" #테스트용 카페
-
 Headless = False
-
-# id = "qkrgkdyd0128"
-# pw = "Qkrgkdyd4019@"
 
 if __name__ == '__main__':
     id = input("1. 포스팅할 네이버 계정\n - ID : ")
